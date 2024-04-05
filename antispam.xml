@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="content" method="upgrade">
+    <name>Antispam simple</name>
+    <author>Sébastien LHUILLIER</author>
+    <creationDate>May 2015</creationDate>
+    <copyright></copyright>
+    <license></license>
+    <authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+    <authorUrl>www.sebastien-lhuillier.com</authorUrl>
+    <version>1.0</version>
+    <description>
+        antispam en détectant ce qui est avant et apres l'arobase, découpant la chaine et utilisaton CSS pour @
+    </description>
+    <files>
+        <filename>antispam.xml</filename>
+		<filename>style.css</filename>
+        <filename plugin="antispam">antispam.php</filename>
+    </files>
+    <config>
+    </config>
+</extension>
